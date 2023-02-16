@@ -1,0 +1,11 @@
+{
+  "name": "bambispoodles",
+  "version": "1.0.0",
+  "description": "website for marketing of poodles",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Kurt Hoefer",
+  "license": "ISC"
+}
