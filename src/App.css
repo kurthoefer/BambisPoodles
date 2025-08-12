@@ -1,3 +1,4 @@
+/* 
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +40,69 @@
 
 .read-the-docs {
   color: #888;
+} 
+*/
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf9f6;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+}
+
+.hero {
+  padding: 4rem 1rem;
+  background: linear-gradient(to bottom right, #fff7e6, #fbeee0);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.subtagline {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #d4a373;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.puppy-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #eee;
+  padding: 1rem;
+  margin-top: 2rem;
 }
